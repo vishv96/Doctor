@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "doctor": {
+            "id": 4,
+            "name": "Dr.Patel",
+            "rating": 4.2,
+            "availability": "",
+            "rate": 30.0,
+            "licenceId": "DWE3244",
+            "specilaity": {
+                "id": 2,
+                "name": "Kidney",
+                "icon" : "https://cdn-icons-png.flaticon.com/512/5570/5570758.png"
+            }
+        },
+        "appointmentType" : "video",
+        "dateTime": ""
+    },
+    {
+        "id": 2,
+        "doctor": {
+            "id": 2,
+            "name": "Dr.Gonsalvi",
+            "rating": 4.9,
+            "availability": "",
+            "rate": 25.0,
+            "licenceId": "DWE3244",
+            "specilaity": {
+                "id": 4,
+                "name": "Oncology",
+                "icon" : "https://cdn-icons-png.flaticon.com/512/2885/2885298.png"
+            }
+        },
+        "appointmentType" : "video",
+        "dateTime": ""
+    },
+    {
+        "id": 3,
+        "doctor": {
+            "id": 3,
+            "name": "Dr.Karim",
+            "rating": 4,
+            "availability": "",
+            "rate": 34.0,
+            "licenceId": "DWE3244",
+            "specilaity": {
+                "id": 6,
+                "name": "Neurology",
+                "icon" : "https://cdn-icons-png.flaticon.com/512/3974/3974908.png"
+            }
+        },
+        "appointmentType" : "inPerson",
+        "dateTime": ""
+    }
+    
+]

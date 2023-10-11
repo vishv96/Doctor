@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "portrait-sick-young-woman-resting-bed-during-medical-consultation-wearing-protective-face-mask-prevent-infection-with-coronavirus-recovering-after-surgery-hospital-ward-medicine-services.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

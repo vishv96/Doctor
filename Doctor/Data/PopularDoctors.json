@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Amelia",
+        "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-practitioner-1421526856614mfnbv.png",
+        "rating": 3,
+        "availability": "",
+        "rate": 23.5,
+        "licenceId": "FSJBB903",
+        "specilaity": {
+            "id": 3,
+            "name": "Lungs",
+            "icon" : "https://static.vecteezy.com/system/resources/thumbnails/009/381/633/small_2x/lungs-human-icon-free-vector.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Dr.Gonsalvi",
+        "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-practitioner-1421526856614mfnbv.png",
+        "rating": 4.9,
+        "availability": "",
+        "rate": 25.0,
+        "licenceId": "DWE3244",
+        "specilaity": {
+            "id": 4,
+            "name": "Oncology",
+            "icon" : "https://img.freepik.com/free-photo/doctor-thinking-isolated-white-background_1368-5826.jpg?w=740&t=st=1696901300~exp=1696901900~hmac=bf80b35d185a694f52a5870aae2574d600bf540db939527f8412e8d4267c6838"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Dr.Karim",
+        "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-practitioner-1421526856614mfnbv.png",
+        "rating": 4,
+        "availability": "",
+        "rate": 34.0,
+        "licenceId": "DWE3244",
+        "specilaity": {
+            "id": 6,
+            "name": "Neurology",
+            "icon" : "https://cdn-icons-png.flaticon.com/512/3974/3974908.png"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Dr.Patel",
+        "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-practitioner-1421526856614mfnbv.png",
+        "rating": 4.2,
+        "availability": "",
+        "rate": 30.0,
+        "licenceId": "DWE3244",
+        "specilaity": {
+            "id": 2,
+            "name": "Kidney",
+            "icon" : "https://cdn-icons-png.flaticon.com/512/5570/5570758.png"
+        }
+    }
+    
+]

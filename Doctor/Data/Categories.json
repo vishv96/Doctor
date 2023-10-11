@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Ortho",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/5996/5996288.png"
+    },
+    {
+        "id": 2,
+        "name": "Kidney",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/5570/5570758.png"
+    },
+    {
+        "id": 3,
+        "name": "Lungs",
+        "icon" : "https://static.vecteezy.com/system/resources/thumbnails/009/381/633/small_2x/lungs-human-icon-free-vector.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Oncology",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/2885/2885298.png"
+    },
+    {
+        "id": 5,
+        "name": "Gynecology",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/2885/2885280.png"
+    },
+    {
+        "id": 6,
+        "name": "Neurology",
+        "icon" : "https://cdn-icons-png.flaticon.com/512/3974/3974908.png"
+    }
+]
