@@ -13,6 +13,8 @@ struct DoctorDetailsView: View {
     var doctor: Doctor?
     let animation: Namespace.ID
     
+    @State private var isAnimated : Bool = false
+    
     var body: some View {
         VStack{
             // MARK: - Header
@@ -91,8 +93,74 @@ struct DoctorDetailsView: View {
             
             // MARK: - Schedule
             Spacer()
+            
+            // MARK: - TabList
+            ScrollView(showsIndicators: false){
+                LazyVStack(spacing:20){
+                    // Details
+                    HStack(spacing:10){
+                        VStack{
+                            Text("14 years")
+                                .font(.system(size: 18, weight: .semibold))
+                                .padding(8)
+                            Text("Experience")
+                                .font(.system(size: 16))
+                                .foregroundColor(.gray)
+                        }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                        VStack{
+                            Text("2456")
+                                .font(.system(size: 18, weight: .semibold))
+                                .padding(8)
+                            Text("Patients")
+                                .font(.system(size: 16))
+                                .foregroundColor(.gray)
+                        }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                        VStack{
+                            HStack(spacing:0){
+                                Image(systemName: "star.fill")
+                                    .foregroundColor(.yellow)
+                                Text("2.4k")
+                                    .font(.system(size: 18, weight: .semibold))
+                                    .padding(8)
+                            }
+                            Text("Reviews")
+                                .font(.system(size: 16))
+                                .foregroundColor(.gray)
+                        }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    }
+                    .padding(.horizontal)
+                    
+                    // Tabs
+                    TabContentView()
+                    
+                }
+            }.refreshable {
+                
+            }
+            
+//            MARK: - Booking Button
+            HStack{
+                Button{
+                    
+                }label: {
+                    Image(systemName: "square.and.pencil.circle")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(8)
+                }
+                StyleButton(title: "Book Now"){
+                    isAnimated.toggle()
+                }
+            }
+            .padding(.horizontal)
+            .frame(maxHeight: 60)
         }
-        .background(Color("primary").edgesIgnoringSafeArea(.all))
+        .background(
+            ZStack{
+                Color("primary").edgesIgnoringSafeArea(.all)
+                BackGroundView()
+            }
+        )
         .matchedGeometryEffect(id: "\(doctor?.id ?? -1)-background", in: animation)
 
     }

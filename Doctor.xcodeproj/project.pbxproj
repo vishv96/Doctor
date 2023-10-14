@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051A0A082ADA6269003715CD /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A0A072ADA6269003715CD /* Tabs.swift */; };
+		051A0A0A2ADAFDFC003715CD /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A0A092ADAFDFC003715CD /* TabContentView.swift */; };
+		051A0A0C2ADB0498003715CD /* Demo1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A0A0B2ADB0498003715CD /* Demo1View.swift */; };
+		051A0A0E2ADB0512003715CD /* Demo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A0A0D2ADB0512003715CD /* Demo2View.swift */; };
 		27F3AB1E2AD32E800041CA5C /* DoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3AB1D2AD32E800041CA5C /* DoctorApp.swift */; };
 		27F3AB202AD32E800041CA5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3AB1F2AD32E800041CA5C /* ContentView.swift */; };
 		27F3AB222AD32E810041CA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F3AB212AD32E810041CA5C /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051A0A072ADA6269003715CD /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		051A0A092ADAFDFC003715CD /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
+		051A0A0B2ADB0498003715CD /* Demo1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1View.swift; sourceTree = "<group>"; };
+		051A0A0D2ADB0512003715CD /* Demo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2View.swift; sourceTree = "<group>"; };
 		27F3AB1A2AD32E800041CA5C /* Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F3AB1D2AD32E800041CA5C /* DoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorApp.swift; sourceTree = "<group>"; };
 		27F3AB1F2AD32E800041CA5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 				27F3AB592AD512640041CA5C /* SearchView.swift */,
 				27F3AB5B2AD51A070041CA5C /* DoctorDetailsView.swift */,
 				27F3AB5D2AD636490041CA5C /* DocImageView.swift */,
+				051A0A072ADA6269003715CD /* Tabs.swift */,
+				051A0A092ADAFDFC003715CD /* TabContentView.swift */,
+				051A0A0B2ADB0498003715CD /* Demo1View.swift */,
+				051A0A0D2ADB0512003715CD /* Demo2View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,9 +279,11 @@
 				27F3AB202AD32E800041CA5C /* ContentView.swift in Sources */,
 				27F3AB5A2AD512640041CA5C /* SearchView.swift in Sources */,
 				27F3AB5C2AD51A070041CA5C /* DoctorDetailsView.swift in Sources */,
+				051A0A0C2ADB0498003715CD /* Demo1View.swift in Sources */,
 				27F3AB312AD3834D0041CA5C /* GradientBackground.swift in Sources */,
 				27F3AB412AD4ABEA0041CA5C /* AppDataStore.swift in Sources */,
 				27F3AB4E2AD4C5360041CA5C /* Bundle+Extension.swift in Sources */,
+				051A0A0A2ADAFDFC003715CD /* TabContentView.swift in Sources */,
 				27F3AB332AD384810041CA5C /* BlockShapes.swift in Sources */,
 				27F3AB372AD39DD00041CA5C /* HomeScreen.swift in Sources */,
 				27F3AB502AD4CF470041CA5C /* ScheduleCellView.swift in Sources */,
@@ -279,9 +293,11 @@
 				27F3AB2F2AD356070041CA5C /* StyleButton.swift in Sources */,
 				27F3AB562AD4DEDA0041CA5C /* DoctorsListView.swift in Sources */,
 				27F3AB392AD39E640041CA5C /* HomeHeaderView.swift in Sources */,
+				051A0A082ADA6269003715CD /* Tabs.swift in Sources */,
 				27F3AB5E2AD636490041CA5C /* DocImageView.swift in Sources */,
 				27F3AB432AD4AC4F0041CA5C /* User.swift in Sources */,
 				27F3AB3D2AD3CEC60041CA5C /* CategoryList.swift in Sources */,
+				051A0A0E2ADB0512003715CD /* Demo2View.swift in Sources */,
 				27F3AB1E2AD32E800041CA5C /* DoctorApp.swift in Sources */,
 				27F3AB452AD4AFED0041CA5C /* Schedule.swift in Sources */,
 				27F3AB3F2AD3CF6F0041CA5C /* Category.swift in Sources */,
@@ -414,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Doctor/Preview Content\"";
-				DEVELOPMENT_TEAM = A6Q2G997F3;
+				DEVELOPMENT_TEAM = 6NL9R8ZXF2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -433,7 +449,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vish.learn.design.Doctor;
+				PRODUCT_BUNDLE_IDENTIFIER = vinu.learn.design.Doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -452,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Doctor/Preview Content\"";
-				DEVELOPMENT_TEAM = A6Q2G997F3;
+				DEVELOPMENT_TEAM = 6NL9R8ZXF2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -471,7 +487,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vish.learn.design.Doctor;
+				PRODUCT_BUNDLE_IDENTIFIER = vinu.learn.design.Doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
