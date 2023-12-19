@@ -29,7 +29,7 @@ struct DoctorsListView: View {
                         
                         Color.white
                        
-                        HStack() {
+                        HStack(spacing:0) {
                             
                             //MARK: - Image
                             DocImageView(
@@ -41,16 +41,30 @@ struct DoctorsListView: View {
                             .frame(width: 70, height: 70)
                             .cornerRadius(15)
                             .matchedGeometryEffect(id: doctor.id, in: animation)
+                            .padding(.horizontal)
 
                             
                             //MARK: - Details
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(doctor.name)
-                                    .matchedGeometryEffect(id: "\(doctor.name)-name", in: animation)
+                                HStack{
+                                    Text(doctor.name)
+                                        .matchedGeometryEffect(id: "\(doctor.name)-name", in: animation)
+                                        .font(.system(size: 22, weight: .semibold))
+                                    Spacer()
+                                    
+                                    Button{
+                                        
+                                    } label: {
+                                        Image(systemName: "heart")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width:20)
+                                    }
+                                }
 
                                 Text(doctor.specilaity.name)
                                     .matchedGeometryEffect(id: "\(doctor.specilaity.name)-special", in: animation)
-                                    .font(.footnote)
+//                                    .font(.footnote)
                                     .foregroundColor(.gray)
                                 HStack (spacing: 0){
                                     Image(systemName: "star.fill")
